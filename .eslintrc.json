@@ -1,0 +1,25 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "quotes": [1, "single", "avoid-escape"],
+        "semi": 2,
+        "no-console": 0,
+        "no-unused-vars": 1,
+        "no-case-declarations": 0
+    },
+    "plugins": [],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "globals": {}
+}
